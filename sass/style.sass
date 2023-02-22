@@ -1,0 +1,751 @@
+@import "normalizez.scss"
+@import "resets.scss"
+
+$main-color: #990338
+$second-color-2: #FFFFFF
+$third-color-3: #000000
+$background-color: #010C1D
+.main-section
+    overflow: hidden
+.container
+    max-width: 1420px
+
+.containers
+    max-width: 914px
+
+.containerz
+    max-width: 592px
+
+.containersz
+    max-width: 1000px
+
+.containerzs
+    max-width: 976px
+
+.containerx
+    max-width: 622px
+
+.main-section
+    &__background-image
+    width: 100%
+    background: url("../img/ben-neale-zpxKdH_xNSI-unsplash.jpg")
+    min-height: 800px
+    margin: 0 auto
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    position: relative
+    overflow: hidden
+    z-index: 0
+    &__linear-gradient
+        position: absolute
+        margin: 0 auto
+        width: 100%
+        min-height: 391px
+        top: 567px
+        background: linear-gradient(180deg, rgba(0, 12, 28, 0) 0%, #000C1C 41.15%)
+        z-index: 2
+
+.nav-menu
+    z-index: 999
+    margin-top: 46px
+    font-size: 20px
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 500
+    font-size: 20px
+    text-shadow: 0px 0px 10px $main-color
+    padding-bottom: 300px
+    &__list 
+        display: flex
+        align-items: center
+        justify-content: space-around
+    a
+        color: $second-color-2
+        text-decoration: none
+    &__list-item a:hover
+        color: $main-color
+        text-shadow: 0px 0px 10px $second-color-2
+    
+.main-section__amodotomi
+    margin: 0 auto
+    position: absolute
+    width: 100%
+    z-index: 998
+    top: 300px
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 500
+    font-size: 64px
+    letter-spacing: 0.35em
+    color: $second-color-2
+    text-shadow: 0px 0px 10px $second-color-2
+    h1
+        text-align: center
+
+//  Second Section
+
+.second-section__background
+    background-color: $background-color
+    display: relative
+
+.second-section__services
+    margin: 0 auto
+    position: absolute
+    left: calc(50% - 299px/2 + 0.5px)
+    width: 299px
+    height: 55px
+    text-align: center
+    top: 904px
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 700
+    font-size: 48px
+    line-height: 115.02%
+    letter-spacing: 0.15em
+    color: $second-color-2
+    text-shadow: 0px 0px 10px $main-color
+    padding-top: 25px
+    margin-bottom: 62px
+    z-index: 3
+
+.box
+    width: 180px
+    height: 180px
+    background: $main-color
+    box-shadow: 0px 0px 20px $main-color
+    border-radius: 25px
+
+.second-section__boxes
+    display: flex
+    align-content: center
+    justify-content: space-between
+    align-items: center
+    margin: auto
+    padding-top: 260px 
+    margin-bottom: 33px
+
+  
+.second-section__boxes-item
+    display: flex
+    justify-content: center
+    align-items: center
+
+.second-section__boxez
+    display: flex
+    align-content: center
+    justify-content: space-between
+    align-items: center
+    margin: 0 auto
+   
+
+
+.second-section__boxez-item
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 30px
+
+.second-section__texts
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 30px
+    color: $main-color
+    margin-bottom: 48px
+    p
+        width: 180px
+        display: flex
+        justify-content: center
+
+.second-section__textz
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 30px
+    color: $main-color
+    p
+        width: 180px
+        display: flex
+        justify-content: center
+        margin-bottom: 70px
+    
+    // THIRD SECTION
+
+.second-section__line
+    max-width: 940px
+    height: 0px
+    margin: 0 auto
+    border-top: 1px solid $main-color
+    box-shadow: 0px 0px 10px $main-color
+    margin-bottom: 100px
+
+.second-section__contact-me
+    margin: 0 auto
+    width: 165px
+    height: 0px
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 32px
+    text-align: center
+    color: $second-color-2
+    text-shadow: 0px 0px 10px $second-color-2
+    margin-bottom: 35px
+
+.second-section__lines
+    margin: 0 auto
+    margin-bottom: 3px
+    max-width: 338px
+    border-top: 1px solid $main-color
+    box-shadow: 0px 0px 10px $main-color
+
+.second-section__ways
+    margin: 0 auto
+    max-width: 562px
+    height: 0px
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 700
+    font-size: 46px
+    text-align: center
+    letter-spacing: 0.15em
+    color: $main-color
+    text-shadow: 0px 0px 20px $main-color
+    margin-bottom: 110px
+
+.boxes
+    width: 240px
+    height: 65px
+    background: $main-color
+    box-shadow: 0px 0px 20px $main-color
+    border-radius: 15px
+
+.second-section__ways-socials
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    margin-bottom: 50px
+
+.second-section__ways-socialz
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    margin-bottom: 50px
+
+
+.second-section__ways-social
+    margin: 0 auto
+    margin-bottom: 120px
+    display: flex
+    justify-content: center
+
+.second-section__line-3
+    margin: 0 auto
+    max-width: 946px
+    border-top: 1px solid $main-color
+    box-shadow: 0px 0px 10px $main-color
+    margin-bottom: 35px
+
+.second-section__amodotomi
+    margin: 0 auto
+    max-width: 165px
+    height: 0px
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    text-align: center
+    font-size: 22px
+    color: $main-color
+    text-shadow: 0px 0px 20px $main-color
+
+.second-section__2023
+    margin: 0 auto
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 12px
+    text-align: center
+    color: $main-color
+    text-shadow: 0px 0px 20px $main-color
+
+footer
+    height: 100px
+
+.second-section__ways-socials-box
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    &__img
+        display: flex
+        padding-left: 8px
+        padding-right: 8px
+    
+.second-section__ways-socials-box
+    &__text
+        display: flex
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 24px
+        color: $third-color-3
+           
+.second-section__ways-socialz-box
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    &__img
+        display: flex
+        padding-left: 8px
+        padding-right: 8px
+
+.second-section__ways-socialz-box
+    &__text
+        display: flex
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 24px
+        color: $third-color-3
+
+.second-section__ways-social-box
+    &__text
+        display: flex
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 24px
+        color: $third-color-3
+    
+.second-section__ways-social-box
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    &__img
+        display: flex
+        padding-left: 8px
+        padding-right: 8px
+
+.second-section__ways-socials-box__text-email
+    display: flex
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    color: $third-color-3
+    font-size: 16px
+    padding-right: 5px
+
+.second-section__ways-socials-box__text-num
+    display: flex
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 400
+    font-size: 20px
+    color: $third-color-3
+    padding-right: 5px
+
+
+a
+    color: $third-color-3
+    text-decoration: none
+    align-self: hover
+
+a:hover
+    text-shadow: 0px 0px 50px $second-color-2
+
+.boxes:hover
+    box-shadow: 0px 0px 20px $second-color-2
+
+.boxes-item_img
+    width: 140px
+    height: 140px
+    // padding: 145px 145px 145px 145px
+
+
+.boxez-item_img
+    width: 140px
+    height: 140px
+    // padding: 145px 145px 145px 145px
+
+.second-section__ways-socials-box__img
+    width: 40px
+    height: 40px
+
+
+@media (max-width: 1199px)
+    .containers
+        max-width: 714px
+
+    .containerz
+        max-width: 392px
+
+    .containersz
+        max-width: 800px
+
+    .containerzs
+        max-width: 776px
+
+    .containerx
+        max-width: 522px
+
+    .boxes
+        width: 230px
+        height: 60px
+        border-radius: 13px
+    .box
+        width: 150px
+        height: 150px
+        border-radius: 20px
+    .boxes-item_img
+        width: 110px
+        height: 110px
+
+    .boxez-item_img
+        width: 110px
+        height: 110px
+
+    .second-section__texts
+        font-weight: 400
+        font-size: 25px
+        margin-bottom: 48px
+        p
+            width: 150px
+
+    .second-section__textz
+        font-weight: 400
+        font-size: 25px
+        p
+            width: 150px
+            margin-bottom: 70px
+    
+    .second-section__ways-socials-box__text-email
+        font-weight: 400
+        font-size: 14px
+
+    .second-section__ways-socials-box__text-num
+        font-weight: 400
+        font-size: 18px
+
+
+    .second-section__ways-socials-box__img
+        width: 35px
+        height: 35px
+
+    .second-section__ways-socials-box__img
+        padding-right: 16px 
+
+    .second-section__ways-social-box
+        &__text
+            font-weight: 400
+            font-size: 20px
+    
+    .second-section__ways-socials-box
+        &__text
+            font-weight: 400
+            font-size: 20px
+
+    .second-section__ways-socialz-box
+        &__text
+            font-weight: 400
+            font-size: 20px
+
+    .second-section__line
+        max-width: 740px
+    
+    .second-section__line-3
+        max-width: 740px
+
+@media (max-width: 991px)
+    .containers
+        max-width: 614px
+
+    .containerz
+        max-width: 392px
+
+    .containersz
+        max-width: 700px
+
+    .containerzs
+        max-width: 676px
+
+    .containerx
+        max-width: 462px
+
+    .boxes
+        width: 210px
+        height: 55px
+        border-radius: 12px
+    .box
+        width: 150px
+        height: 150px
+        border-radius: 20px
+    .boxes-item_img
+        width: 110px
+        height: 110px
+
+    .boxez-item_img
+        width: 110px
+        height: 110px
+
+    .second-section__texts
+        font-weight: 400
+        font-size: 25px
+        margin-bottom: 48px
+        p
+            width: 150px
+
+    .second-section__textz
+        font-weight: 400
+        font-size: 25px
+        p
+            width: 150px
+            margin-bottom: 70px
+    
+    .second-section__ways-socials-box__text-email
+        font-weight: 400
+        font-size: 14px
+
+    .second-section__ways-socials-box__text-num
+        font-weight: 400
+        font-size: 18px
+
+
+    .second-section__ways-socials-box__img
+        width: 35px
+        height: 35px
+
+    .second-section__ways-socials-box__img
+        padding-right: 16px 
+
+    .second-section__ways-social-box
+        &__text
+            font-weight: 400
+            font-size: 20px
+    
+    .second-section__ways-socials-box
+        &__text
+            font-weight: 400
+            font-size: 20px
+
+    .second-section__ways-socialz-box
+        &__text
+            font-weight: 400
+            font-size: 20px
+    
+    .second-section__line
+        max-width: 640px
+    
+    .second-section__line-3
+        max-width: 640px
+
+@media (max-width: 767px)
+    .containers
+        max-width: 414px
+
+    .containerz
+        max-width: 292px
+
+    .containersz
+        max-width: 500px
+
+    .containerzs
+        max-width: 425px
+
+    .containerx
+        max-width: 300px
+
+    .boxes
+        width: 130px
+        height: 45px
+        border-radius: 10px
+    .box
+        width: 120px
+        height: 120px
+        border-radius: 20px
+    .boxes-item_img
+        width: 90px
+        height: 90px
+
+    .boxez-item_img
+        width: 90px
+        height: 90px
+
+    .second-section__texts
+        font-weight: 400
+        font-size: 20px
+        p
+            width: 120px
+
+    .second-section__textz
+        font-weight: 400
+        font-size: 20px
+        p
+            width: 120px
+    
+    .second-section__ways-socials-box__text-email
+        font-weight: 400
+        font-size: 8px
+
+    .second-section__ways-socials-box__text-num
+        font-weight: 400
+        font-size: 10px
+
+
+    .second-section__ways-socials-box__img
+        width: 25px
+        height: 25px
+
+    .second-section__ways-socials-box__img
+        padding-right: 8px 
+
+    .second-section__ways-social-box
+        &__text
+            font-weight: 400
+            font-size: 18px
+    
+    .second-section__ways-socials-box
+        &__text
+            font-weight: 400
+            font-size: 12px
+
+    .second-section__ways-socialz-box
+        &__text
+            font-weight: 400
+            font-size: 12px
+    
+    .second-section__line
+        max-width: 340px
+    
+    .second-section__line-3
+        max-width: 340px
+
+    .second-section__ways
+        max-width: 562px
+        font-size: 34px
+
+    .second-section__lines
+        max-width: 250px
+        
+    .second-section__contact-me
+        font-size: 28px
+
+    .main-section__amodotomi
+        font-size: 54px
+
+
+@media (max-width: 575px)
+    .containers
+        max-width: 300px
+
+    .containerz
+        max-width: 200px
+
+    .containersz
+        max-width: 300px
+
+    .containerzs
+        max-width: 300px
+
+    .containerx
+        max-width: 200px
+
+    .boxes
+        width: 70px
+        height: 70px
+        border-radius: 10px
+    .box
+        width: 90px
+        height: 90px
+        border-radius: 20px
+    .boxes-item_img
+        width: 70px
+        height: 70px
+
+    .boxez-item_img
+        width: 70px
+        height: 70px
+
+    .second-section__texts
+        font-weight: 400
+        font-size: 15px
+        p
+            width: 90px
+
+    .second-section__textz
+        font-weight: 400
+        font-size: 15px
+        p
+            width: 90px
+    
+    .second-section__ways-socials-box__text-email
+        display: none
+
+    .second-section__ways-socials-box__text-num
+        display: none
+
+
+    .second-section__ways-socials-box__img
+        width: 40px
+        height: 40px
+        padding: auto
+        margin: auto
+
+    .second-section__ways-socials-box__img
+        padding-right: 8px 
+
+    .second-section__ways-social-box
+        &__text
+            display: none
+    
+    .second-section__ways-socials-box
+        &__text
+            display: none
+
+    .second-section__ways-socialz-box
+        &__text
+            display: none
+    
+    .second-section__line
+        max-width: 240px
+
+    .second-section__line-3
+        max-width: 240px
+
+    .second-section__ways
+        max-width: 300px
+        font-size: 34px
+
+    .second-section__lines
+        max-width: 150px
+        
+    .second-section__contact-me
+        font-size: 28px
+
+    .main-section__amodotomi
+        font-size: 34px
+        text-shadow: 0px 0px 10px $main-color
+
+    .second-section__services
+        font-size: 38px
+
+    .second-section__ways-social-box 
+        margin: 0 auto
+        align-content: center
+        justify-content: center
+        align-items: cente
+
+    .second-section__ways-socialz-box
+        margin: 0 auto
+        align-content: center
+        justify-content: center
+        align-items: cente
+        
+
+
+    

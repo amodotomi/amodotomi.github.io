@@ -1170,6 +1170,9 @@ a:hover {
     margin: 0 auto;
     align-content: center;
     justify-content: center;
-    align-items: cente;
+    align-items: center;
+  }
+   .second-section__ways-socials-box {
+    justify-content: center;
   }
 }

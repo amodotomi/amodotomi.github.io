@@ -1173,6 +1173,9 @@ a:hover {
     align-items: center;
   }
    .second-section__ways-socials-box {
+    margin: 0 auto;
+    align-content: center;
     justify-content: center;
+    align-items: center;
   }
 }
